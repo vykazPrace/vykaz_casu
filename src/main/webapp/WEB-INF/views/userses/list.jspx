@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_sk_tuke_domain_Users" items="${userses}" z="yT9Z5Rb/DNvQp4ftDpEFMCoPN5s=">
+        <table:table data="${userses}" id="l_sk_tuke_domain_Users" path="/userses" z="tYXuiGb9ZcL0yTfIhFCAfaNVpGc=">
+            <table:column id="c_sk_tuke_domain_Users_firstName" property="firstName" z="RmEyim2OeSSoF+qaKk7Tjhc0/1s="/>
+            <table:column id="c_sk_tuke_domain_Users_lastName" property="lastName" z="QSYjq/rDWUtT5SPQvSg0fTE+PVI="/>
+            <table:column id="c_sk_tuke_domain_Users_address" property="address" z="cVZbPL+slgy7fW7M6Q9ndLvgZW0="/>
+            <table:column id="c_sk_tuke_domain_Users_phoneNumber" property="phoneNumber" z="eFahJ4kfxMxDeznCtH1+rirw6qc="/>
+            <table:column id="c_sk_tuke_domain_Users_activity" property="activity" z="6xNzI7WuTjAiDRK3M8m4Mak6fA0="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_sk_tuke_domain_Project" items="${projects}" z="DVKozoJYPGmqFK8XSumE8JyQ0Ko=">
+        <table:table data="${projects}" id="l_sk_tuke_domain_Project" path="/projects" z="ViJ/uMCmROVvH8WrjvS7VJ29Grk=">
+            <table:column id="c_sk_tuke_domain_Project_projectName" property="projectName" z="5RI8gY/RY8dAHc9mKptDM2E7bVM="/>
+            <table:column id="c_sk_tuke_domain_Project_budget" property="budget" z="3Y4Ox8PxGLyMRV4K/Bb1bu7fj6k="/>
+            <table:column date="true" dateTimePattern="${project_startdate_date_format}" id="c_sk_tuke_domain_Project_startDate" property="startDate" z="6rxudVEnqfz7ML22Isqb48RxrMk="/>
+            <table:column date="true" dateTimePattern="${project_enddate_date_format}" id="c_sk_tuke_domain_Project_endDate" property="endDate" z="bsva4sfYzSfhPBu2jFAWPr2hk84="/>
+        </table:table>
+    </page:list>
+</div>

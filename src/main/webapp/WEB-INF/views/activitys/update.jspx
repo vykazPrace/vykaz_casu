@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_sk_tuke_domain_Activity" modelAttribute="activity" path="/activitys" versionField="Version" z="L9IBq08vX1Wv2RfYlsFiBZfMYBM=">
+        <field:input field="nameOfActivity" id="c_sk_tuke_domain_Activity_nameOfActivity" min="3" required="true" z="uyuWqUxHLJA3NYmnzXryc1uLRqQ="/>
+        <field:input field="hourlyWage" id="c_sk_tuke_domain_Activity_hourlyWage" validationMessageCode="field_invalid_number" z="Fit0/QHOaVdMUguXQ9i9U4ULxeE="/>
+        <field:input field="timeToFinish" id="c_sk_tuke_domain_Activity_timeToFinish" validationMessageCode="field_invalid_number" z="bdrRs+qGcD1iSn2RZKQCvCFX228="/>
+        <field:datetime dateTimePattern="${activity_dateoftermination_date_format}" field="dateOfTermination" id="c_sk_tuke_domain_Activity_dateOfTermination" z="eiipSc70mp9T3LLkQ/J0lDyi9mA="/>
+        <field:select field="project" id="c_sk_tuke_domain_Activity_project" itemValue="id" items="${projects}" path="/projects" required="true" z="IJ9ZUbPIws+XdEpEoRFQ78I/HYg="/>
+        <field:select field="users" id="c_sk_tuke_domain_Activity_users" itemValue="id" items="${userses}" multiple="true" path="/userses" z="cqna/cDAfWe+Z3uYyHixQtF2BdI="/>
+    </form:update>
+</div>

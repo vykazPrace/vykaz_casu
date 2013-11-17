@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_sk_tuke_domain_Project" modelAttribute="project" path="/projects" render="${empty dependencies}" z="n3PFhUUdTborwCmWa5FT7mvc1o8=">
+        <field:input field="projectName" id="c_sk_tuke_domain_Project_projectName" min="4" required="true" z="Q3i5LJE+IfqTIPxVVmnPvtA9WBY="/>
+        <field:input field="budget" id="c_sk_tuke_domain_Project_budget" validationMessageCode="field_invalid_number" z="KnGYg2vWRgzjx6Z+bTewbj0FC8Y="/>
+        <field:datetime dateTimePattern="${project_startdate_date_format}" field="startDate" id="c_sk_tuke_domain_Project_startDate" z="0huA0wZb/ixH0gPL3i6+krSKB40="/>
+        <field:datetime dateTimePattern="${project_enddate_date_format}" field="endDate" id="c_sk_tuke_domain_Project_endDate" z="WSTLS2LQlS6L33lq3wCgH7ZTaec="/>
+        <field:simple field="activity" id="c_sk_tuke_domain_Project_activity" messageCode="entity_reference_not_managed" messageCodeAttribute="Activity" z="xUR52Y8yx9UDqN5Pu96XJf6Efuw="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_sk_tuke_domain_Project" render="${not empty dependencies}" z="b4GJfYpkqzXq6NCF3QylvCjlC9o="/>
+</div>
