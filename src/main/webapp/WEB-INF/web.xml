@@ -2,9 +2,9 @@
 <web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
 
     
-    <display-name>Timesheet s.r.o.</display-name>
+    <display-name>vykaz_casu</display-name>
     
-    <description>Timesheet application</description>
+    <description>Roo generated vykaz_casu application</description>
 
     
     <!-- Enable escaping of form submission contents -->

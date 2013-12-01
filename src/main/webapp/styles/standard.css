@@ -7,22 +7,18 @@ body,div,td {
 }
 
 body {
-	background-color: #fff;
+	background-color: #FFFF99;
 	text-align: center;
 }
 
 #header {
-	
 	margin-bottom: 1em;
-	width: 100%;
-	
 }
 
-#wrapper {top
-	/*width:800px;
+#wrapper {
+	width:800px;
 	min-width: 800px;
-	max-width: 800px;*/
-	margin: 0 auto;
+	max-width: 800px;
 	margin-right: auto;
 	margin-left: auto;
 
@@ -30,67 +26,74 @@ body {
 	width:expression(document.body.clientWidth > 800? "800px": "auto" );
 	
 	overflow:hidden;
-	display:block;
+	
 }
 
 /* header and footer elements */
 
 #main {
+	width:800px;
 	overflow:hidden;
 	display:box;
+ 	margin-top: 2em; 
+	position:relative;
+	float:left;  
 }
 
 #menu {
-	background: #eee;
+	background: #FFCC99;
 	position:relative;
 	float:left;  	
 	left:0px;
-	width:220px;
+	width:770px;
 	margin-right:15px;
 }
 
 #menu ul{
-	list-style: none;
+	
 	margin: 0;
 	padding: 0;
+	display: inline;
 }
 
 #menu ul li{
 	padding: 0px;
+	display: inherit;
 }
 
 
 #menu a, #menu h2 {
-	display: block;
-	margin: 0;
+	display: inline;
+/* 	margin: 0; */
 	padding: 2px 6px;
-	color:#FFFFFF;
+	color:#FF9933;
 }
 
 #menu h2 {
+	display: none;
 	color: #fff;
-	background: #ffa500;
+	background: #FF9933;
 	text-transform: uppercase;
 	font-weight:bold;
 	font-size: 12px;
 }
 
 #menu a {
-	color: #666666;
-	background: #efefef;
+	color: #FFFFFF;
+	background-image:  url(menu.jpg);
 	text-decoration: none;
 	padding: 2px 12px;
 }
 
 #menu a:hover {
-	color: #ffa500;
-	background: #fff;
+	color: #FFFFFF;
+	background-image:  url(menu2.jpg);
 }
 
 #footer {
-	background:#fff;
+	background:#FFFF99;
 	border:none;
-	margin-top:15px;
+	margin-top:10px;
 	border-top:1px solid #999999;
 }
 
@@ -98,7 +101,7 @@ body {
 	float:left;
 }
 
-#footer a:link {color: #ffa500;}
+#footer a:link {color: #7db223;}
 
 .quicklinks {
 	clear:both; 
@@ -125,7 +128,9 @@ input {
 
 input, textarea, select {
 	border:1px solid #B3B3B3;
+
 }
+
 
 input.image {
 	border: none;
@@ -204,19 +209,19 @@ tr:nth-child(even) {
 }
 
 a:link {
-	color: #ffa500;
+	color: #7db223;
 }
 
 a:hover {
-	color: #ffa500;
+	color: #456314;
 }
 
 a:active {
-	color: #ffa500;
+	color: #7db223;
 }
 
 a:visited {
-	color: #ffa500;
+	color: #7db223;
 }
 
 li {
