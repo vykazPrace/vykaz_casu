@@ -1,0 +1,21 @@
+<aspectj>
+<aspects>
+<aspect name="sk.tuke.domain.UsersDataOnDemand_Roo_Configurable"/>
+<aspect name="sk.tuke.domain.ProjectIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="sk.tuke.domain.ReportIntegrationTest_Roo_Configurable"/>
+<aspect name="sk.tuke.domain.ProjectIntegrationTest_Roo_Configurable"/>
+<aspect name="sk.tuke.domain.UsersDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="sk.tuke.domain.ReportDataOnDemand_Roo_Configurable"/>
+<aspect name="sk.tuke.domain.ActivityDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="sk.tuke.domain.ReportDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="sk.tuke.domain.ActivityDataOnDemand_Roo_Configurable"/>
+<aspect name="sk.tuke.domain.UsersIntegrationTest_Roo_Configurable"/>
+<aspect name="sk.tuke.domain.ProjectDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="sk.tuke.domain.ProjectDataOnDemand_Roo_Configurable"/>
+<aspect name="sk.tuke.domain.UsersIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="sk.tuke.domain.ActivityIntegrationTest_Roo_Configurable"/>
+<aspect name="sk.tuke.domain.ActivityIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="sk.tuke.domain.ReportIntegrationTest_Roo_IntegrationTest"/>
+</aspects>
+</aspectj>
+

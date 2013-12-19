@@ -1,0 +1,30 @@
+<aspectj>
+<aspects>
+<aspect name="sk.tuke.domain.Activity_Roo_JavaBean"/>
+<aspect name="sk.tuke.domain.Activity_Roo_Jpa_ActiveRecord"/>
+<aspect name="sk.tuke.domain.Report_Roo_Jpa_Entity"/>
+<aspect name="sk.tuke.web.UsersController_Roo_Controller"/>
+<aspect name="sk.tuke.domain.Activity_Roo_Configurable"/>
+<aspect name="sk.tuke.domain.Project_Roo_Jpa_Entity"/>
+<aspect name="sk.tuke.web.ProjectController_Roo_Controller"/>
+<aspect name="sk.tuke.domain.Report_Roo_Jpa_ActiveRecord"/>
+<aspect name="sk.tuke.domain.Activity_Roo_ToString"/>
+<aspect name="sk.tuke.domain.Report_Roo_JavaBean"/>
+<aspect name="sk.tuke.domain.Users_Roo_Jpa_Entity"/>
+<aspect name="sk.tuke.domain.Report_Roo_ToString"/>
+<aspect name="sk.tuke.domain.Project_Roo_Configurable"/>
+<aspect name="sk.tuke.domain.Project_Roo_ToString"/>
+<aspect name="sk.tuke.domain.Users_Roo_Configurable"/>
+<aspect name="sk.tuke.web.ReportController_Roo_Controller"/>
+<aspect name="sk.tuke.domain.Users_Roo_Jpa_ActiveRecord"/>
+<aspect name="sk.tuke.domain.Activity_Roo_Jpa_Entity"/>
+<aspect name="sk.tuke.domain.Project_Roo_Jpa_ActiveRecord"/>
+<aspect name="sk.tuke.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="sk.tuke.web.ActivityController_Roo_Controller"/>
+<aspect name="sk.tuke.domain.Project_Roo_JavaBean"/>
+<aspect name="sk.tuke.domain.Report_Roo_Configurable"/>
+<aspect name="sk.tuke.domain.Users_Roo_ToString"/>
+<aspect name="sk.tuke.domain.Users_Roo_JavaBean"/>
+</aspects>
+</aspectj>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_sk_tuke_domain_Report" object="${report}" path="/reports" z="VDJJYK9+Ooe1dGZcZBQeAKW3qxM=">
+        <field:display date="true" dateTimePattern="${report_starttime_date_format}" field="startTime" id="s_sk_tuke_domain_Report_startTime" object="${report}" z="4PBv9kEQODOBN2RiZwoZdi+45TM="/>
+        <field:display date="true" dateTimePattern="${report_endtime_date_format}" field="endTime" id="s_sk_tuke_domain_Report_endTime" object="${report}" z="5ZQ9f7GBsfKxiaqTGmhHj2fKBz8="/>
+        <field:display field="description" id="s_sk_tuke_domain_Report_description" object="${report}" z="Czt+Ic7FB3awhkVclZfYYehIHm0="/>
+        <field:display field="users" id="s_sk_tuke_domain_Report_users" object="${report}" z="k5uusSYsLKmHgs+r4jt7LUuyOE4="/>
+    </page:show>
+</div>

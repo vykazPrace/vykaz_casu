@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_sk_tuke_domain_Users" modelAttribute="users" path="/userses" versionField="Version" z="E+k381eynhp4MJOpzz//9+bvpAU=">
+        <field:input field="firstName" id="c_sk_tuke_domain_Users_firstName" required="true" z="wvx25svsbRNsvGVX/qI1fozd/Sc="/>
+        <field:input field="lastName" id="c_sk_tuke_domain_Users_lastName" required="true" z="42SNFnKeDYRaWQn6gAhhaxruCxg="/>
+        <field:textarea field="address" id="c_sk_tuke_domain_Users_address" z="9A7245fUWzU4a47UyUqvc1VGwpE="/>
+        <field:input field="phoneNumber" id="c_sk_tuke_domain_Users_phoneNumber" z="6O2ePR3rYcWBf2JgXNGUfbuVP4g="/>
+        <field:select field="activity" id="c_sk_tuke_domain_Users_activity" itemValue="id" items="${activitys}" multiple="true" path="/activitys" z="8hCuoWUVTVDKEWlZCVxbWfql94s="/>
+        <field:simple field="report" id="c_sk_tuke_domain_Users_report" messageCode="entity_reference_not_managed" messageCodeAttribute="Report" z="EtHymlBzLhPSDlbb8mUV+VlnXrI="/>
+    </form:update>
+</div>
